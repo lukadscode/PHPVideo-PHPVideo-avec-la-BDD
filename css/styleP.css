@@ -1,0 +1,265 @@
+body {
+    font-family: 'Poppins', sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 14px;
+color: #bcbcbc;
+line-height: 1.5;
+text-align: left;
+}
+footer {
+    background-color: yellow;
+}
+
+main, div {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	margin-top: 0px;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: normal;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: inherit;
+}
+h1 {
+	font-size: 40px;
+	font-weight: 500;
+}
+h2 {
+	font-size: 35px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 22px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+
+
+
+section.banner-area-SignIn.banner-bg-SignIn, .FormConnexion {
+    background-color:black;
+}
+
+.banner-bg {
+    padding: 295px 0 273px;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-bg-SignIn {
+    padding: 100px;
+    background-position: center;
+    background-size:cover;
+}
+
+.banner-meta {
+    margin-bottom: 35px;
+}
+
+.banner-content .sub-title{
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.banner-content .title {
+    font-size: 60px;
+    line-height: 1.2;
+}
+
+.banner-content .sub-title,
+.banner-content .title > span {
+    color: #e4d804;
+}
+
+.btn {
+    user-select: none;
+    -moz-user-select: none;
+    background: #12151e none repeat scroll 0 0;
+    border: 2px solid #e4d804;
+    border-radius: 50px;
+    color: #e3dfdf;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 0;
+    padding: 16px 34px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+    max-width: 200px;
+    -webkit-user-select: none;
+}
+
+a, btn {
+    outline: medium none;
+}
+
+a {
+    text-decoration: none;
+}
+
+*, ::after, ::before {
+    box-sizing:border-box
+}
+
+::selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+
+.container {
+    width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-2{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.sub-title wow fadeInUp {
+    visibility: visible;
+    animation-duration: 1.8s;
+    animation-delay: 0.2s;
+    animation-name: fadeInUp;
+}
+
+.banner-meta wow fadeInUp {
+    visibility: visible;
+    animation-duration: 1s;
+    animation-delay: 0.6s;
+    animation-name: fadeInUp;
+}
+
+.banner-btn btn popup-video wow fadeInUp{
+    visibility: visible;
+    animation-duration: 1.8s;
+    animation-delay: 0.8s;
+    animation-name: fadeInUp;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor:pointer
+}
+
+.Airplane, .Palmier{
+    width: 10%;
+    height: auto;
+    margin-left: -50px;
+}
+
+@media (max-width: 1500px){
+    .banner-bg{
+    padding: 260px 0 200px;
+    background-position: right center;
+        }
+    .custom-container {
+        max-width: 1330px;
+    }
+}
+    
+@media (max-width: 1200px){
+    .col-1{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.Form{
+    padding : 50px;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    padding: 5px;
+}
+
+form p {
+    padding: 20px;
+}
+
+.login-inscription{
+    background-color: #12151e;
+}
+
+.Login-Form{
+    padding : 50px;
+    margin-top: 100px;
+
+}
+
+.Form-Profil{
+    padding : 50px;
+    margin-top: 50px;
+    margin : 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items:safe;
+}
+
+.movie-image {
+    width: 50%; /* Remplacez la valeur par la taille souhaitée */
+    height: auto;
+    padding : 20px;
+}
+
+.movie-content .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.movie-detail {
+    background-color: #12151e;
+}
